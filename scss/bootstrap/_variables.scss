@@ -45,6 +45,7 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 $brown:   rgb(82,47,44) !default;
+$brand-green: rgb(137, 198, 83) !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -63,7 +64,8 @@ $colors: map-merge(
     "white":      $white,
     "gray":       $gray-600,
     "gray-dark":  $gray-800,
-    "brown":      $brown
+    "brown":      $brown,
+    "brand-green": $brand-green
   ),
   $colors
 );
@@ -76,6 +78,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
+$highlight:     $brand-green !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default

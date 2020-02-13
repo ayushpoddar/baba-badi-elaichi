@@ -1,0 +1,28 @@
+div#sticky-wrapper {
+  div.site-logo {
+    img {
+      display: none;
+      @extend .fadeOutDown;
+    }
+    img.logo-with-bg {
+      display: inline;
+      @extend .fadeInDown;
+    }
+  }
+}
+
+div#sticky-wrapper.is-sticky {
+  div.site-logo {
+    img {
+      display: none;
+      @extend .fadeOutUp;
+    }
+
+    img.transparent-logo {
+      display: inline;
+      @extend .fadeInUp;
+    }
+  }
+}
+
+
