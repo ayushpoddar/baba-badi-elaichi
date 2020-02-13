@@ -30,4 +30,17 @@ header.site-navbar ul.site-menu li {
   font-family: "mops"
 }
 
+div.site-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.border-highlight {
+  border-color: $highlight !important;
+}
+
+.bg-highlight {
+  background-color: $highlight !important;
+}
+
 
