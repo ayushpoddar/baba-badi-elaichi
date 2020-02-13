@@ -12,7 +12,7 @@
 /* Base */
 @font-face {
   font-family: mops;
-  src: url(/fonts/mops/Mops.ttf);
+  src: url(fonts/mops/Mops.ttf);
 }
 body {
   line-height: 1.7;
