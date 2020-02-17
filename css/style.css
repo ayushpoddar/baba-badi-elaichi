@@ -4578,3 +4578,9 @@ div.work-text h3 {
   margin-bottom: 1.5rem;
   border-radius: 50%;
 }
+
+span.footer-icon {
+  position: relative;
+  top: 2px;
+  font-size: 1.1rem;
+}
